@@ -8,7 +8,49 @@
   <body>
    <h1>MY FIRST LANDING PAGE</h1>
   <hr/>
-  <br>
+  <h2>saving's report</h2>
+  <!--BEGIN Table_1-->
+  <table>
+    <thead>
+      <th>Month</th>
+      <th>Saving</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>January</td>
+        <td>1000$</td>
+      </tr>
+      <tr>
+        <td>February</td>
+        <td>500$</td>
+      </tr>
+      <tfoot>
+        <td>Total</td>
+        <td>1500$</td>
+      </tfoot>
+    </tbody>
+  </table>
+  <!--END Table_1-->
+  <form class="form1" action="index.html" method="post">
+    <fieldset>
+      <legend>Datos Personales</legend>
+      <label>Edad:</label><br>
+      <input class="labelNumber" type="number" name="nmr1" placeholder="Ingrese su edad"><br>
+      <label>Contraseña:</label><br>
+      <input class="labelNumber" type="password" name="pass1" placeholder="Ingrese su contraseña"><br>
+      <label>Nombre completo:</label><br>
+      <input class="labelNumber" type="text" name="txt1" placeholder="Ingrese su nombre"><br>
+      <label>Sexo:</label><br>
+      <select class="labelNumber">
+        <option value="op1">Masculino</option>
+        <option value="op2">Femenino</option>
+      </select><br>
+      <button class="labelNumber" name="button1">Aceptar</button><br>
+      <input class="labelNumber" type="submit" value="Enviar"><br>
+
+    </fieldset>
+  </form>
+
   </body>
    <script src="/scripts/main.js"></script>
 </html>
