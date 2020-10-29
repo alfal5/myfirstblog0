@@ -15,6 +15,16 @@ hr{
 	box-shadow: 0 20px 20px -20px dodgerblue;
   margin: -60px auto 10px;
 }
+#container{
+  border: none;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  background-color: #828182;
+  box-shadow: 0 0 20px 5px dodgerblue;
+}
 
 h2{
   margin-top: 25px;
@@ -51,9 +61,6 @@ legend{
   height: 20px;
 }
 
-#container{
-  border: rgb(13,13,13);
-}
 
 textarea{
   color: white;
