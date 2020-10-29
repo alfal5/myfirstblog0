@@ -51,6 +51,10 @@ legend{
   height: 20px;
 }
 
+#container{
+  border: rgb(13,13,13);
+}
+
 textarea{
   color: white;
   background-color: rgb(5,5,5);
