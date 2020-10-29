@@ -50,3 +50,30 @@ legend{
   margin-bottom: 10px;
   height: 20px;
 }
+
+textarea{
+  color: white;
+  background-color: rgb(5,5,5);
+  border-radius: 8px;
+  border-style: none;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 100px;
+  width: 200px;
+}
+
+.picprofile{
+  border-radius: 100px;
+  box-shadow: 0 0 35px 5px white;
+  margin-bottom: 30px;
+}
+ol {
+text-align: center;
+justify-content: center;
+}
+
+ul {
+text-align: center;
+justify-content: center;
+}
